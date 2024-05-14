@@ -7,12 +7,12 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
 public class App extends JFrame {
-    private JPanel panel;                  // To reference a panel
-    private JLabel messageLabel;           // To reference a label
-    private JTextField kiloTextField;      // To reference a text field
-    private JButton calcButton;            // To reference a button
-    private final int WINDOW_WIDTH = 250;  // Window Width
-    private final int WINDOW_HEIGHT = 100; // Window Height
+    private JPanel panel;
+    private JLabel messageLabel;
+    private JTextField kiloTextField;
+    private JButton calcButton;
+    private final int WINDOW_WIDTH = 250;
+    private final int WINDOW_HEIGHT = 100;
 
     private Clip clip;
 
